@@ -3,7 +3,7 @@ from BinSearchMinecraft import BinSearchMinecraft
 from colorama import Fore
 from Generator import generator
 
-samples,weigths = generator(10000)
+samples,weigths = generator(100)
 
 for i in range(len(samples)):
    test = BinSearchMinecraft(samples[i], weigths[i][2], weigths[i][1], weigths[i][0])
